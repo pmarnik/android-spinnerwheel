@@ -1,6 +1,10 @@
 apply plugin: 'android-library'
 apply plugin: 'android-maven'
 
+group = "com.github.ai212983"
+archivesBaseName = 'android-spinnerwheel'
+version = "1.0.0"
+
 dependencies {
     provided 'com.nineoldandroids:library:2.4.0'
 }
