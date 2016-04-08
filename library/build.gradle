@@ -17,3 +17,13 @@ android {
         minSdkVersion 3
     }
 }
+
+task jarSources(type:Jar){
+    from android.sourceSets.main.java.srcDirs
+    classifier = 'source'
+}
+
+artifacts {
+    archives jarSources
+}
+
