@@ -3,7 +3,7 @@ apply plugin: 'android-maven'
 
 group = "com.github.ai212983"
 archivesBaseName = 'android-spinnerwheel'
-version = "1.0.0-alpha"
+version = "1.0.0-alpha2"
 
 dependencies {
     provided 'com.nineoldandroids:library:2.4.0'

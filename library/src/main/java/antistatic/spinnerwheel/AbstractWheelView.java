@@ -182,7 +182,7 @@ public abstract class AbstractWheelView extends AbstractWheel {
      */
     @Override
     protected void recreateAssets(int width, int height) {
-        if(isInEditMode()) {
+        if(width == 0 || height == 0) {
             return;
         }
         mSpinBitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
